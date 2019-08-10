@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/classic/classic",
+    "pages/movies/movies",
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/list/list",
+    "pages/movieDetail/movieDetail",
+    "components/like/index",
+    "components/epsoide/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "Demo",
+    "navigationBarBackgroundColor": "#489b81",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "文与字",
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": "/images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影会员",
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
